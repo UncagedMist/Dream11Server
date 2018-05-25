@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgFirstOpponent"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="4dp"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/imgSecondOpponent"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="4dp"
+            app:srcCompat="@drawable/search"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/txtSeriesName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="6dp"
+            android:textSize="18sp"
+            android:text="Indian T20 League" />
+
+        <TextView
+            android:id="@+id/txtVS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSeriesName"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:text="VS" />
+
+        <TextView
+            android:id="@+id/txtTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:textSize="16sp"
+            android:textColor="#d50000"
+            android:text="47h 59m 59s" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

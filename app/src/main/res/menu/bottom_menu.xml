@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:title="HOME"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/action_contests"
+        android:enabled="true"
+        android:title="MY CONTESTS"
+        android:icon="@drawable/trophy1"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/action_me"
+        android:enabled="true"
+        android:title="ME"
+        android:icon="@drawable/user"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/action_more"
+        android:enabled="true"
+        android:title="MORE"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        app:showAsAction="always|withText"/>
+
+</menu>
